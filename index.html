@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <h4>
+      Queue Operations Demo
+    </h4>
+    <div class="line">
+      <div class="Insert">
+        <input id="insert" name='insert' placeholder='Add an element to queue'>
+        <button onclick="perform('enQueue')">
+          EnQueue
+        </button>
+      </div>
+      <div class="line">
+        <button onclick="perform('deQueue')">
+          DeQueue
+        </button>
+      </div>
+    </div>
+    <div class="seperate-line">
+  
+    </div>
+    <div class="result line">
+      <div id="current-status" class="line">
+  
+      </div>
+      <div id="current-size" class="line"></div>
+      <div id="last-added" class="line">
+  
+      </div>
+      <div id="queue-look" class="line">
+  
+      </div>
+    </div>
+  </div>
+          <script src="app.js"></script>
+</body>
+</html>
